@@ -1,6 +1,6 @@
 class Superhero
   
-  attr_reader :name, :power, :RUBY_VERSION
+  attr_reader :name, :power, :bio 
   @@all = []
   
   def initialize(params)
